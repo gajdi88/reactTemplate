@@ -4,7 +4,9 @@
   "description": "This is a barebones SSR React project template based on https://jscomplete.com/reactful",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundler": "webpack -w --mode=development"
   },
   "keywords": [],
   "author": "",
