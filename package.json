@@ -4,7 +4,7 @@
   "description": "This is a barebones SSR React project template based on https://jscomplete.com/reactful",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
