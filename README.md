@@ -22,3 +22,9 @@ npm i -D eslint @babel/eslint-parser eslint-plugin-react eslint-plugin-react-hoo
 (and ensure .eslintrc.js complete)
 
 npm i -D jest babel-jest react-test-renderer
+
+# Step 4 - run nodemon and webpack
+
+npm run dev:server
+
+npm run dev:bundler
